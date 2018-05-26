@@ -1,0 +1,143 @@
+#stopwatch {
+    position: relative;
+    display: inline-block;
+    margin: 0.5em;
+    width: 10em;
+    height: 10em;
+  }
+  #stopwatch * {
+    box-sizing: border-box;
+  }
+  #stopwatch .switch {
+    position: absolute;
+    left: 3.8em;
+    width: 2.4em;
+    height: 1em;
+    background-color: slategrey;
+    animation: pressure 15s ease-out;
+    box-shadow: 0 0 0.2em 0 black;
+  }
+  #stopwatch .ring {
+    position: absolute;
+    top: 1.2em;
+    left: 1em;
+    border: 0.6em solid black;
+    width: 8em;
+    height: 8em;
+    border-radius: 50%;
+    z-index: 500;
+    box-shadow: inset 0 0 0.3em 0 black;
+  }
+  #stopwatch .pie {
+    position: absolute;
+    left: 0.5em;
+    top: 0.7em;
+    width: 9em;
+    height: 9em;
+    border-radius: 50%;
+    border: 1em solid slategrey;
+    box-shadow: 0 0 0.3em 0 black;
+  }
+  #stopwatch .pie::before {
+    content: "";
+    display: block;
+    margin-left: 50%;
+    height: 100%;
+    border-radius: 0 100% 100% 0/50%;
+    transform-origin: left;
+  }
+  #stopwatch .pie1 {
+    z-index: 10;
+    transform: rotate(1turn);
+    background-image: linear-gradient(to left, transprent 50%, blue 0);
+  }
+  #stopwatch .pie1::before {
+    background-color: black;
+    transform: rotate(1turn);
+    animation: spin1 7.5s linear;
+  }
+  #stopwatch .pie2 {
+    z-index: 0;
+    transform: rotate(1turn);
+    background-image: linear-gradient(to left, transparent 50%, black 0);
+    animation: altitude 15s step-end, temperature 15s linear;
+  }
+  #stopwatch .pie2::before {
+    transform: rotate(1turn);
+    animation: spin2 7.5s linear infinite, temperature 15s linear;
+  }
+  @keyframes spin1 {
+    0% {
+      transform: rotate(1turn);
+    }
+    100% {
+      transform: rotate(1.5turn);
+    }
+  }
+  @keyframes spin2 {
+    0% {
+      transform: rotate(1turn);
+    }
+    100% {
+      transform: rotate(1.5turn);
+    }
+  }
+  @keyframes altitude {
+    50% {
+      z-index: 10;
+    }
+  }
+  @keyframes temperature {
+    0% {
+      background-color: #FFDF00;
+    }
+    50% {
+      background-color: #D4AF37;
+    }
+    70% {
+      background-color: #C5B358;
+    }
+    90% {
+      background-color: orange;
+    }
+    100% {
+      background-color: red;
+    }
+  }
+  @keyframes pressure {
+    0% {
+      top: 0px;
+    }
+    2% {
+      top: 0.5em;
+    }
+    4% {
+      top: 0px;
+    }
+  }
+  
+  
+  .container_stopWatch {
+    text-align: center;
+    min-height: 25em;
+    padding: 0em;
+  }
+
+  .btn-primary {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    background: goldenrod;
+    color: ghostwhite;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+  }

@@ -1,0 +1,344 @@
+.container {
+  width: 15px;
+  height: 15px;
+  margin: 50px auto;
+}
+.container:nth-child(1) .block {
+  width: 100%;
+  height: 100%;
+  margin-top: 5px;
+  background: red;
+  transform: translateX(100px);
+  box-shadow: -6px 15px 22px -3px rgba(0, 0, 255, .2);
+}
+.container:nth-child(1) .block_A {
+  animation: slide 2s ease-in-out infinite alternate;
+}
+.container:nth-child(1) .block:nth-child(1) {
+  animation-delay: 0.3s;
+}
+.container:nth-child(1) .block:nth-child(2) {
+  animation-delay: 0.6s;
+}
+.container:nth-child(1) .block:nth-child(3) {
+  animation-delay: 0.9s;
+}
+.container:nth-child(1) .block:nth-child(4) {
+  animation-delay: 1.2s;
+}
+.container:nth-child(1) .block:nth-child(5) {
+  animation-delay: 1.5s;
+}
+.container:nth-child(1) .block:nth-child(6) {
+  animation-delay: 1.8s;
+}
+.container:nth-child(1) .block:nth-child(7) {
+  animation-delay: 2.1s;
+}
+.container:nth-child(1) .block:nth-child(8) {
+  animation-delay: 2.4s;
+}
+.container:nth-child(1) .block:nth-child(9) {
+  animation-delay: 2.7s;
+}
+.container:nth-child(1) .block:nth-child(10) {
+  animation-delay: 3s;
+}
+.container:nth-child(1) .block:nth-child(11) {
+  animation-delay: 3.3s;
+}
+.container:nth-child(1) .block:nth-child(12) {
+  animation-delay: 3.6s;
+}
+.container:nth-child(1) .block:nth-child(13) {
+  animation-delay: 3.9s;
+}
+.container:nth-child(1) .block:nth-child(14) {
+  animation-delay: 4.2s;
+}
+.container:nth-child(1) .block:nth-child(15) {
+  animation-delay: 4.5s;
+}
+.container:nth-child(1) .block:nth-child(16) {
+  animation-delay: 4.8s;
+}
+.container:nth-child(1) .block:nth-child(17) {
+  animation-delay: 5.1s;
+}
+.container:nth-child(1) .block:nth-child(18) {
+  animation-delay: 5.4s;
+}
+.container:nth-child(1) .block:nth-child(19) {
+  animation-delay: 5.7s;
+}
+.container:nth-child(1) .block:nth-child(20) {
+  animation-delay: 6s;
+}
+.container:nth-child(1) .block:nth-child(21) {
+  animation-delay: 6.3s;
+}
+.container:nth-child(1) .block:nth-child(22) {
+  animation-delay: 6.6s;
+}
+.container:nth-child(1) .block:nth-child(23) {
+  animation-delay: 6.9s;
+}
+.container:nth-child(1) .block:nth-child(24) {
+  animation-delay: 7.2s;
+}
+.container:nth-child(1) .block:nth-child(25) {
+  animation-delay: 7.5s;
+}
+.container:nth-child(1) .block:nth-child(26) {
+  animation-delay: 7.8s;
+}
+.container:nth-child(1) .block:nth-child(27) {
+  animation-delay: 8.1s;
+}
+.container:nth-child(1) .block:nth-child(28) {
+  animation-delay: 8.4s;
+}
+.container:nth-child(1) .block:nth-child(29) {
+  animation-delay: 8.7s;
+}
+.container:nth-child(1) .block:nth-child(30) {
+  animation-delay: 9s;
+}
+.container:nth-child(1) .block:nth-child(31) {
+  animation-delay: 9.3s;
+}
+.container:nth-child(1) .block:nth-child(32) {
+  animation-delay: 9.6s;
+}
+.container:nth-child(1) .block:nth-child(33) {
+  animation-delay: 9.9s;
+}
+.container:nth-child(1) .block:nth-child(34) {
+  animation-delay: 10.2s;
+}
+.container:nth-child(1) .block:nth-child(35) {
+  animation-delay: 10.5s;
+}
+.container:nth-child(1) .block:nth-child(36) {
+  animation-delay: 10.8s;
+}
+.container:nth-child(2) {
+  transform: translateY(-65px) scale(-1, 1);
+}
+.container:nth-child(2) .block_A {
+  animation: slide 2s ease-in-out infinite alternate;
+}
+.container:nth-child(2) .block {
+  width: 100%;
+  height: 100%;
+  margin-top: 5px;
+  background: yellow;
+  transform: translateX(100px);
+  box-shadow: 12px 12px 19px -3px rgba(0, 0, 255, .2);
+}
+.container:nth-child(2) .block:nth-child(1) {
+  animation-delay: 0.3s;
+}
+.container:nth-child(2) .block:nth-child(2) {
+  animation-delay: 0.6s;
+}
+.container:nth-child(2) .block:nth-child(3) {
+  animation-delay: 0.9s;
+}
+.container:nth-child(2) .block:nth-child(4) {
+  animation-delay: 1.2s;
+}
+.container:nth-child(2) .block:nth-child(5) {
+  animation-delay: 1.5s;
+}
+.container:nth-child(2) .block:nth-child(6) {
+  animation-delay: 1.8s;
+}
+.container:nth-child(2) .block:nth-child(7) {
+  animation-delay: 2.1s;
+}
+.container:nth-child(2) .block:nth-child(8) {
+  animation-delay: 2.4s;
+}
+.container:nth-child(2) .block:nth-child(9) {
+  animation-delay: 2.7s;
+}
+.container:nth-child(2) .block:nth-child(10) {
+  animation-delay: 3s;
+}
+.container:nth-child(2) .block:nth-child(11) {
+  animation-delay: 3.3s;
+}
+.container:nth-child(2) .block:nth-child(12) {
+  animation-delay: 3.6s;
+}
+.container:nth-child(2) .block:nth-child(13) {
+  animation-delay: 3.9s;
+}
+.container:nth-child(2) .block:nth-child(14) {
+  animation-delay: 4.2s;
+}
+.container:nth-child(2) .block:nth-child(15) {
+  animation-delay: 4.5s;
+}
+.container:nth-child(2) .block:nth-child(16) {
+  animation-delay: 4.8s;
+}
+.container:nth-child(2) .block:nth-child(17) {
+  animation-delay: 5.1s;
+}
+.container:nth-child(2) .block:nth-child(18) {
+  animation-delay: 5.4s;
+}
+.container:nth-child(2) .block:nth-child(19) {
+  animation-delay: 5.7s;
+}
+.container:nth-child(2) .block:nth-child(20) {
+  animation-delay: 6s;
+}
+.container:nth-child(2) .block:nth-child(21) {
+  animation-delay: 6.3s;
+}
+.container:nth-child(2) .block:nth-child(22) {
+  animation-delay: 6.6s;
+}
+.container:nth-child(2) .block:nth-child(23) {
+  animation-delay: 6.9s;
+}
+.container:nth-child(2) .block:nth-child(24) {
+  animation-delay: 7.2s;
+}
+.container:nth-child(2) .block:nth-child(25) {
+  animation-delay: 7.5s;
+}
+.container:nth-child(2) .block:nth-child(26) {
+  animation-delay: 7.8s;
+}
+.container:nth-child(2) .block:nth-child(27) {
+  animation-delay: 8.1s;
+}
+.container:nth-child(2) .block:nth-child(28) {
+  animation-delay: 8.4s;
+}
+.container:nth-child(2) .block:nth-child(29) {
+  animation-delay: 8.7s;
+}
+.container:nth-child(2) .block:nth-child(30) {
+  animation-delay: 9s;
+}
+.container:nth-child(2) .block:nth-child(31) {
+  animation-delay: 9.3s;
+}
+.container:nth-child(2) .block:nth-child(32) {
+  animation-delay: 9.6s;
+}
+.container:nth-child(2) .block:nth-child(33) {
+  animation-delay: 9.9s;
+}
+.container:nth-child(2) .block:nth-child(34) {
+  animation-delay: 10.2s;
+}
+.container:nth-child(2) .block:nth-child(35) {
+  animation-delay: 10.5s;
+}
+.container:nth-child(2) .block:nth-child(36) {
+  animation-delay: 10.8s;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(100px);
+  }
+  100% {
+    transform: translateX(-100px);
+  }
+}
+
+.aw_box {
+  font-family: 'Lato', sans-serif;
+    top: 80%;
+    position: absolute;
+    background: #fff;
+    width: 50%;
+    margin: 20px;
+    height: 50px; 
+    padding: 10px;
+    margin-top: -15%;
+    margin-left: 22%;
+    box-shadow: -6px 15px 22px -3px rgba(34, 34, 62, 0.2);
+} 
+#dice {font-size: 6rem;}
+
+.black {
+  background: black !important;
+  color: white !important;
+}
+.blue {
+  background: blue !important;
+  color: white !important;
+}
+.green {
+  background: green !important;
+  color: white !important;
+}
+.purple {
+  background: purple !important;
+  color: white !important;
+}
+.w3-golden {
+  background-color: #c5b358!important;
+    color: #fffffe !important;
+}
+
+.numbers_with_padding {
+  padding: 10px;
+  font-size: 30px;
+  font-family: "Segoe UI",Arial,sans-serif;
+}
+
+.custom-radios div {
+  display: inline-block;
+}
+.custom-radios input[type=radio] {
+  display: none;
+}
+.custom-radios input[type=radio] + label {
+  color: #333;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+.custom-radios input[type=radio] + label span {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: -1px 4px 0 0;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 2px solid #FFFFFF;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  line-height: 44px;
+}
+.custom-radios input[type=radio] + label span img {
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+.custom-radios input[type=radio].color-1 + label span {
+  background-color: black;
+}
+.custom-radios input[type=radio].color-2 + label span {
+  background-color: green;
+}
+.custom-radios input[type=radio].color-3 + label span {
+  background-color: blue;
+}
+.custom-radios input[type=radio].color-4 + label span {
+  background-color: purple;
+}
+.custom-radios input[type=radio]:checked + label span img {
+  opacity: 1;
+}
+

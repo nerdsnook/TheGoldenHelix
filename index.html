@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <title>React App</title>
+  </head>
+  <body>
+      <style>
+          html {
+              
+          }
+          </style>
+
+<div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="font-family: sans-serif;display:none;right:0;width: 32%; padding: 16px;" id="rightMenu">
+    <button onclick="closeRightMenu()" class="w3-bar-item w3-button w3-large">Close &times;</button>
+    <h1>Instructions:</h1>
+    <br> 
+    <hr>
+    <br><p>
+        To play, gather 2-4 people and pick a game piece. A calculator is not required (or banned) but makes life easier. You will need a stopwatch or use a phone to time 15 seconds.
+
+    </p>
+    <hr>
+    <hr>
+<p>
+Put said pieces on start and have the youngest in the group playing roll the two dice. Add the dice value rolled together then subtract two. Multiply the total to 180 then pick up a factor card. The equation looks like this: ((x+y-2)180)-factor card number. If the final total is 700 or more move to the Yellow Helix and pick a chance card.
+    <hr>
+Everyone would get 15 seconds 
+If you are in the Yellow Helix for 3 turns it is game over for you. If there are more than 2 people the game carries on. If the total is under 700 move 1 space in the Red Helix. If you are in the Yellow Helix or the Red Helix, you always move 1 space.
+    <hr>
+To win the game, whoever gets to the finish first wins!
+
+    </p>
+  </div>
+  
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div class="w3-container w3-golden">
+        <button class="w3-button w3-xlarge w3-right" onclick="openRightMenu()">&#9776;</button>
+        <h2>The Golden Helix</h2>
+      </div>
+      
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    
+<script>
+
+    function openRightMenu() {
+        document.getElementById("rightMenu").style.display = "block";
+    }
+    function closeRightMenu() {
+        document.getElementById("rightMenu").style.display = "none";
+    }
+    </script>
+  </body>
+</html>
